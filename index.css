@@ -12,37 +12,37 @@
     width: 100vw;
 }
 .msg-wrap .modal {
-    height: 46rem;
-    width: 60rem;
+    height: 460px;
+    width: 624px;
     position: absolute;
-    top: 20vh;
-    left: calc(50% - 30rem);
+    top: calc(50vh - 230px);
+    left: calc(50% - 312px);
     border-radius: 30px;
     background-color: #FFFFFF;
     box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
 }
 .msg-wrap .modal img {
-    max-width: 180px;
-    margin: 50px auto 0;
+    max-width: 156px;
+    margin: 66px auto 0;
     display: block;
 }
 .msg-wrap .modal div:nth-of-type(1) {
     color: #111111;
     font-family: "JetBrains Mono";
-    font-size: 4.5rem;
+    font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: -0.8px;
     line-height: 34.5px;
     text-align: center;
-    margin: 50px auto 0;
+    margin: 52px auto 0;
 }
 .msg-wrap .modal div:nth-of-type(2) {
     color: #89959C;
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 18px;
     letter-spacing: 0;
     line-height: 26px;
     text-align: center;
-    margin: 25px auto 0;
+    margin: 25px auto 60px;
 }
