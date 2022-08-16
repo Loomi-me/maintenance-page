@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     z-index: 1;
-    height: 10%;
+    height: 100%;
     width: 100%;
 }
 .msg-wrap .overlay {
@@ -45,4 +45,36 @@
     line-height: 26px;
     text-align: center;
     margin: 25px auto 60px;
+}
+@media all and (max-width: 676px) {
+    .msg-wrap .modal {
+        max-width: 80%;
+        max-height: 400px;
+        left: 10%;
+    }
+    .msg-wrap .modal div:nth-of-type(1) {
+        color: #111111;
+        font-family: "JetBrains Mono";
+        font-size: 26px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: -0.8px;
+        line-height: 34.5px;
+        text-align: center;
+        margin: 32px auto 0;
+    }
+    .msg-wrap .modal div:nth-of-type(2) {
+        color: #89959C;
+        font-family: Inter;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: center;
+        margin: 20px auto 60px;
+    }
+    .msg-wrap .modal img {
+        max-width: 126px;
+        margin: 46px auto 0;
+        display: block;
+    }
 }
