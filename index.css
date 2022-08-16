@@ -45,11 +45,12 @@
     line-height: 26px;
     text-align: center;
     margin: 25px auto 60px;
+    max-width: 420px;
 }
 @media all and (max-width: 676px) {
     .msg-wrap .modal {
         max-width: 80%;
-        max-height: 400px;
+        max-height: 350px;
         left: 10%;
     }
     .msg-wrap .modal div:nth-of-type(1) {
@@ -61,16 +62,17 @@
         letter-spacing: -0.8px;
         line-height: 34.5px;
         text-align: center;
-        margin: 32px auto 0;
+        margin: 25px auto 0;
     }
     .msg-wrap .modal div:nth-of-type(2) {
         color: #89959C;
         font-family: Inter;
         font-size: 14px;
         letter-spacing: 0;
-        line-height: 22px;
+        line-height: 20px;
         text-align: center;
-        margin: 20px auto 60px;
+        margin: 20px auto 30px;
+        max-width: 90%;
     }
     .msg-wrap .modal img {
         max-width: 126px;
